@@ -92,27 +92,33 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   font-family: "Work Sans";
-  font-size: 40px;
+  font-size: 50px;
   position: relative;
-  padding: 15px;
-  color:#363535
+  padding: 35px 0;
 }
 
+.work-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 .coming-soon-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  border-radius: 15px;
+  margin-bottom: 20px;
   width: 50%;
 }
 
 .horiseon-img, .runbuddy-img {
   width: 25%;
-}
+  border-radius: 15px;
+  padding: 8px;
 
+}
 
 .work-row-two {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
