@@ -141,6 +141,7 @@ h1 {
   justify-content: center;
   align-items: center;
   font-family: "Work Sans", sans-serif;
+  margin-bottom: 30px;
 }
 
 .contact-heading {
@@ -208,6 +209,17 @@ input[type="submit"]:hover {
 /* contact-form styles */
 
 /* end contact-me styles */
+
+/* footer styles */
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #55d6aa;
+  font-family: "Work Sans", sans-serif;
+  padding: 24px 0;
+}
+/* end footer styles */
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
