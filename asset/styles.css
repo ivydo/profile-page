@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600");
+
 /* general styling */
 * {
   padding: 0;
@@ -40,5 +41,44 @@ h1 {
   padding: 25px 30px;
   text-decoration: none;
   font-size: 1.55vw;
+  color: #000000;
 }
 /* end nav bar styles */
+
+/* about-me styles*/
+.about-me {
+  margin: 20px 0;
+}
+
+.about-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.about-col-img {
+  margin: 20px;
+}
+.profile-pic {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.about-me h2 {
+  font-size: 50px;
+  font-family: "Work Sans", sans-serif;
+  margin: 75px auto 30px;
+  text-align: center;
+}
+
+.about-me p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+
+
+/* end about-me styles*/
