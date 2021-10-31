@@ -132,7 +132,11 @@ h1 {
 }
 
 .text-main {
-  margin-top: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* margin-top: 550px; */
   font-size: 50px;
   font-family: "Work Sans", sans-serif;
 }
@@ -140,7 +144,6 @@ h1 {
 .text-secondary {
   font-size: 30px;
   font-family: "Work Sans", sans-serif;
-  margin: 100px;
 }
 
 .work-link-main:hover .overlay-main {
@@ -160,6 +163,7 @@ h1 {
 .coming-soon-img {
   border-radius: 15px;
   width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -173,6 +177,7 @@ h1 {
 .runbuddy-img {
   display: block;
   width: 100%;
+  height: auto;
   border-radius: 15px;
 }
 
@@ -273,6 +278,7 @@ footer {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
+
 }
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 
