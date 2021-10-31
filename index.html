@@ -17,16 +17,22 @@
       <h1>IVY DO : ASPIRING FRONT-END DEV</h1>
       <nav>
         <ul class="navbar-list">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Resume</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#about-me">About</a></li>
+          <li><a href="#work-section">Work</a></li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/ivy-do-2373b0200/"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </li>
+          <li><a href="#contact-me">Contact</a></li>
         </ul>
       </nav>
     </header>
     <!-- end navbar -->
     <!-- about-me section -->
-    <section class="about-me">
+    <section class="about-me" id="about-me">
       <div class="about-row">
         <div class="about-col-img">
           <img
@@ -38,13 +44,55 @@
         <div class="about-col-info">
           <h2>Hi, I'm Ivy.</h2>
           <p>
-            Aspiring web developer based in Orlando, FL. <br>
-            I'm passionate
-            about creating responsive experiences.
+            Aspiring web developer based in Orlando, FL. <br />
+            I'm passionate about creating responsive experiences.
           </p>
         </div>
       </div>
     </section>
-    <!-- about-me section -->
+    <!-- end about-me section -->
+
+    <!-- work section -->
+    <section class="work-section" id="work-section"></section>
+    <!-- end work section -->
+
+    <!-- contact section -->
+    <section class="contact-me" id="contact-me">
+      <div class="contact-content">
+        <h2 class="contact-heading"><span>Contact Me</span></h2>
+        <p>I'd love to hear from you.</p>
+<div class="contact-form">
+        <form>
+          <label for="name">Full Name </label>
+          <input
+            type="text"
+            placeholder=""
+            id="name"
+            name="name"
+            class="form-input"
+          />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            placeholder=""
+            id="email"
+            name="email"
+            class="form-input"
+          />
+
+          <label for="message">Message</label>
+          <input
+            type="text"
+            placeholder=""
+            name="message"
+            id="message"
+            class="form-input"
+          />
+          <input type="submit"></input>
+        </form>
+      </div>
+      </div>
+    </section>
+    <!-- end contact section -->
   </body>
 </html>
