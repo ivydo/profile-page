@@ -134,12 +134,15 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   font-family: "Work Sans", sans-serif;
 }
 
 .contact-heading {
   position: relative;
   text-align: center;
+  padding: 30px 0 ;
+  font-size: 30px;
 }
 
 .contact-heading:before {
@@ -161,7 +164,8 @@ h1 {
 
 .contact-me p {
   text-align: center;
-  font-size: 16px;
+  font-size: 22px;
+  padding-bottom: 15px;
 }
 
 /* contact-form styles */
