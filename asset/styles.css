@@ -95,7 +95,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  font-family: "Work Sans";
+  font-family: "Work Sans", sans-serif;
   font-size: 50px;
   position: relative;
   padding: 35px 0;
@@ -110,24 +110,70 @@ h1 {
 
 .work-link-main {
   width: 50%;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.overlay-main {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.text-main {
+  margin-top: 550px;
+  font-size: 50px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.text-secondary {
+  font-size: 30px;
+  font-family: "Work Sans", sans-serif;
+  margin: 100px;
+}
+
+.work-link-main:hover .overlay-main {
+  opacity: 1;
+}
+
+.work-link-secondary {
+  width: 50%;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.work-link-secondary:hover .overlay-main {
+  opacity: 1;
 }
 
 .coming-soon-img {
   border-radius: 15px;
-  margin-bottom: 20px;
   width: 100%;
+  display: block;
 }
 
-.work-link {
+.work-link-secondary {
   width: 25%;
-  padding: 8px;
+  margin: 0 4px 15px;
+  position: relative;
 }
 
 .horiseon-img,
 .runbuddy-img {
+  display: block;
   width: 100%;
   border-radius: 15px;
-  margin-bottom: 30px;
 }
 
 .work-row-two {
@@ -227,15 +273,12 @@ footer {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-
 }
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 
 @media screen and (max-width: 768px) {
-
 }
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 
 @media screen and (max-width: 575px) {
-  
 }
