@@ -11,6 +11,10 @@ CSS
 
 * Responsive, clean design that highlights my projects.
 
+## Website
+https://ivydo.github.io/profile-page/ 
+
+
 ## License
 Created in 2021 
 by Ivy Do
