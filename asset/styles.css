@@ -109,11 +109,16 @@ h1 {
   width: 50%;
 }
 
-.horiseon-img, .runbuddy-img {
+.work-link {
   width: 25%;
-  border-radius: 15px;
   padding: 8px;
 
+}
+
+.horiseon-img,
+.runbuddy-img {
+  width: 100%;
+  border-radius: 15px;
 }
 
 .work-row-two {
